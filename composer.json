@@ -1,0 +1,29 @@
+{
+    "name":        "kenshodigital/kirby-htmldoc",
+    "description": "Minifies HTML5 output for Kirby templates.",
+    "type":        "kirby-plugin",
+    "version":     "1.0.0",
+    "homepage":    "https://github.com/kenshodigital/kirby-htmldoc",
+    "license":     "MIT",
+    "authors":
+    [
+        {
+            "name":  "Jens Scherbl",
+            "email": "jens@kensho.digital"
+        }
+    ],
+    "require":
+    {
+        "php":                         "^8.2",
+        "getkirby/cms":                "^4.0",
+        "getkirby/composer-installer": "^1.2",
+        "hexydec/htmldoc":             "^1.8"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Kensho\\HTMLDoc\\": "src"
+        }
+    }
+}
