@@ -2,7 +2,7 @@
     "name":        "kenshodigital/kirby-htmldoc",
     "description": "Minifies HTML5 output for Kirby templates.",
     "type":        "kirby-plugin",
-    "version":     "1.0.0",
+    "version":     "1.0.1",
     "homepage":    "https://github.com/kenshodigital/kirby-htmldoc",
     "license":     "MIT",
     "authors":
