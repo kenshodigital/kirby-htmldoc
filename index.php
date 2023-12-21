@@ -11,7 +11,11 @@ App::plugin('kensho/htmldoc', [
             'html',
         ],
         'options' => [
-            'quotes' => true,
+            'quotes' => false,
+            'urls'   => [
+                'relative' => false,
+                'parent'   => false,
+            ],
         ],
     ],
     'hooks' => [

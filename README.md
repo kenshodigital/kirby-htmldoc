@@ -43,7 +43,7 @@ return [
 
 #### Defaults
 
-Applicable content types are set to `htm` and `html` by default. For the library, only the setting for quotes deviates from the library’s default and is set to `false` in this plugin.
+Applicable content types are set to `htm` and `html` by default. For the library, only the settings for quotes and relative URLs deviate from the library’s defaults and are set to `false` in this plugin.
 
 [1]: https://getkirby.com
 [2]: https://github.com/hexydec
