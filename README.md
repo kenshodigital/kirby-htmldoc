@@ -1,4 +1,4 @@
-# kenshō HTMLDoc for Kirby
+# HTMLDoc for Kirby
 
 Minifies HTML5 output for [Kirby][1] projects.
 

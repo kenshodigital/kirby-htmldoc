@@ -1,6 +1,6 @@
 {
     "name":        "kenshodigital/kirby-htmldoc",
-    "description": "Minifies HTML5 output for Kirby templates.",
+    "description": "Minifies HTML5 output for Kirby projects.",
     "type":        "kirby-plugin",
     "version":     "2.0.0",
     "license":     "MIT",
