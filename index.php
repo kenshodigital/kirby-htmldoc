@@ -1,7 +1,5 @@
 <?php declare(strict_types=1);
 
-use hexydec\html;
-use Kensho\HTMLDoc\HTMLDoc;
 use Kirby\Cms\App;
 
 App::plugin('kensho/htmldoc', [
@@ -10,24 +8,17 @@ App::plugin('kensho/htmldoc', [
             'htm',
             'html',
         ],
-        'options' => [
-            'quotes' => false,
-            'urls'   => [
-                'relative' => false,
-                'parent'   => false,
+        'config' => [
+            'minify' => [
+                'quotes' => false,
+                'urls'   => [
+                    'relative' => false,
+                    'parent'   => false,
+                ],
             ],
         ],
     ],
     'hooks' => [
-        'page.render:after' => function (string $contentType, array $data, string $html): string {
-            $kirby   = App::instance();
-            $lib     = new html\htmldoc;
-            $HTMLDoc = new HTMLDoc($kirby, $lib);
-
-            if ($HTMLDoc->isApplicable($contentType)) {
-                return $HTMLDoc->getMinified($html);
-            }
-            return $html;
-        },
+        'page.render:after' => require __DIR__ . '/hooks/page/render/after.php',
     ],
 ]);
