@@ -1,4 +1,4 @@
-# HTMLDoc for Kirby
+# Kirby HTMLDoc
 
 Minifies HTML5 output for [Kirby][1] projects.
 
@@ -9,7 +9,7 @@ Integrates [Hexydec’s][2] excellent [HTMLDoc library][3] into Kirby projects t
 ## Installation
 
 ```shell
-composer require kenshodigital/kirby-htmldoc ^2.0
+composer require kenshodigital/kirby-htmldoc ^2.1
 ```
 
 ## Usage
