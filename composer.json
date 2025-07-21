@@ -4,8 +4,15 @@
 	"type": "kirby-plugin",
 	"version": "2.0.0",
 	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jens Scherbl",
+			"email": "jens@kensho.digital"
+		}
+	],
 	"support": {
-		"source": "https://github.com/kenshodigital/kirby-htmldoc"
+		"source": "https://github.com/kenshodigital/kirby-htmldoc",
+		"issues": "https://github.com/kenshodigital/kirby-htmldoc/issues"
 	},
 	"require": {
 		"php": "^8.3",
