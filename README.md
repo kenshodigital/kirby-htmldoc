@@ -14,20 +14,20 @@ composer require kenshodigital/kirby-htmldoc ^2.0
 
 ## Usage
 
-Basically works out of the box without any additional configuration. 
+Basically works out of the box without any additional configuration.
 
 ### Configuration
 
 However, applicable content types as well as the library’s [default configuration][4] can be easily modified in your site’s [`config.php`][5].
 
 ```php
-<?php declare(strict_types=1); 
+<?php declare(strict_types=1);
 
 return [
     'kensho.htmldoc' => [
         'contentTypes' = [
             'htm',
-            'html',                    
+            'html',
         ],
         'config' => [
             'minify' => [
